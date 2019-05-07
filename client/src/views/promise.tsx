@@ -11,7 +11,7 @@ import PromiseCard from 'src/components/promise/card';
 
 interface IPromiseViewProps {
   location: { pathname?: string };
-  staticContext: { promise: any; }; // FIXME Pledge: { id: string; user: {}; };
+  staticContext: { promise: IPromise; };
 }
 
 interface IPromiseViewState {
